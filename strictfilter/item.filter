@@ -96,7 +96,7 @@ ItemDisplay[amu OR rin (UNI !ID)]: %NL% %PURPLE%OO    %GOLD%%NAME%    %PURPLE%OO
 ItemDisplay[amu OR rin (!ID RARE AND ILVL>74)]: %NL%%NAME% [i%ILVL%] %NL% +%NOTIFY-YELLOW%
 ItemDisplay[amu OR rin (RARE)]: %NL% %NAME% %NL% %NOTIFY-YELLOW%
 ItemDisplay[amu OR rin (MAG)]: %NL% %NAME% %NL%
-ItemDisplay[aqv OR aq2 (!ID RARE AND ILVL>74)]: 
+ItemDisplay[aqv OR aq2 OR cq2 (!ID RARE AND ILVL>74)]: 
 //ItemDisplay[(amu OR rin) (MAG) !ID OR ID ]: %NL%  %NAME% %NL% [i%ILVL%] 
 ItemDisplay[(aq2 OR cq2 OR aqv OR cqv) UNI !ID]:
 ItemDisplay[(aq2 OR cq2 OR aqv OR cqv) MAG !ID]:

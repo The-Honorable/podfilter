@@ -145,10 +145,10 @@ ItemDisplay[SET (7qr OR oba) !ID]: %NL% + %NAME% + %NL%%NOTIFY-GREEN%
 
 // hide all else
 ItemDisplay[WEAPON (MAG OR RARE OR UNI OR SET) !ID]:
-ItemDisplay[WEAPON NMAG !RW]:
-ItemDisplay[WEAPON INF !RW]:
-ItemDisplay[WEAPON SUP !RW]:
-ItemDisplay[WEAPON ETH !RW]:
+ItemDisplay[WEAPON (NMAG) !RW]:
+ItemDisplay[WEAPON (INF) !RW]:
+ItemDisplay[WEAPON (SUP) !RW]:
+ItemDisplay[WEAPON (ETH) !RW]:
 
 // =============================================================
 // ARMOR
@@ -200,7 +200,7 @@ ItemDisplay[RARE (EQ4 OR EQ5 OR EQ7 OR CL1) ILVL>60 !ID]: %NAME% [i%ILVL%]
 
 // hide all else
 ItemDisplay[ARMOR (MAG OR RARE OR UNI OR SET) !ID]:
-ItemDisplay[ARMOR NMAG !RW]:
-ItemDisplay[ARMOR INF !RW]:
-ItemDisplay[ARMOR SUP !RW]:
-ItemDisplay[ARMOR ETH !RW]:
+ItemDisplay[ARMOR (NMAG) !RW]:
+ItemDisplay[ARMOR (INF) !RW]:
+ItemDisplay[ARMOR (SUP) !RW]:
+ItemDisplay[ARMOR (ETH) !RW]:

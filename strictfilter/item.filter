@@ -16,12 +16,12 @@ item.filter
 // Hidden: All potions except supers and rejuv, keys, scrolls
 // =============================================================
 ItemDisplay[GOLD<3000]:
-ItemDisplay[leg]: %NL%  %GOLD%%NAME% %NL% MOOOOO BITCH%GOLD% %NL%  %NL%%NOTIFY-GOLD%
+ItemDisplay[leg]: %NL%  %GOLD%%NAME% %NL% MOOOOO BITCH %NL%  %NL%%NOTIFY-GOLD%
 ItemDisplay[hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4]:
 ItemDisplay[gps OR ops OR gpm OR opm OR gpl OR opl]:
 ItemDisplay[key OR vps OR yps OR wms OR tsc OR isc]:
-ItemDisplay[hp5]: Hp
-ItemDisplay[mp5]: Mana
+ItemDisplay[hp5]: %RED% HP 
+ItemDisplay[mp5]: %BLUE% Mana
 ItemDisplay[rvl]: %NL%%BLACK%   %GREEN%!%PURPLE%7%  %BLACK%%NL%
 ItemDisplay[rvs]: %BLACK%   %GREEN%!%PURPLE%3%  %BLACK%
 
@@ -65,16 +65,16 @@ ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10
 // =============================================================
 // RUNES, JEWELS, CHARMS
 //
-// Hidden: Runes below Lem (Ko shows for unique armor upgrade recipe)
+// Hidden: all runes are shown
 // =============================================================
 ItemDisplay[RUNE>25]: %NL% %PURPLE%OOO      %ORANGE%%NAME%      %PURPLE%OOO %NL%%NOTIFY-ORANGE%
 ItemDisplay[RUNE<25 AND RUNE>20]: %NL% %PURPLE%OO  %ORANGE%%NAME%  %PURPLE%OO %NL%%NOTIFY-ORANGE%
 ItemDisplay[RUNE<20]: %PURPLE%OO  %ORANGE%%NAME%  %PURPLE%OO %NOTIFY-ORANGE%
 
-// Hidden: Unid Large charms, Grand charms <ilvl50, Small charms <ilvl50
+// trying to not hide charms
 ItemDisplay[cm1 OR cm2 OR cm3 (!ID UNI)]: %NL%  %NAME%  %NL%%NOTIFY-GOLD%
-ItemDisplay[cm1 OR cm3 (!ID AND ILVL>50)]: %NL%  %NAME% [i%ILVL%]  %NL%%NOTIFY-BLUE%
-ItemDisplay[(cm1 OR cm2 OR cm3) !ID]:
+ItemDisplay[cm1 OR cm2 OR cm3 (!ID )]: %NL%  %NAME% [i%ILVL%]  %NL%%NOTIFY-BLUE%
+ItemDisplay[(cm1 OR cm2 OR cm3)]: %NL%  %NAME% [i%ILVL%]
 
 // Hidden: Unid Jewels <ilvl 45
 ItemDisplay[jew MAG !ID]: %NAME% [i%ILVL%]
@@ -92,7 +92,7 @@ ItemDisplay[jew MAG OR RARE (!ID AND ILVL<45)]:
 // =============================================================
 ItemDisplay[amu SET !ID]: %NL% O     %NAME%     O %NL%%NOTIFY-GREEN%
 ItemDisplay[amu OR rin (UNI !ID)]: %NL% %PURPLE%OO    %GOLD%%NAME%    %PURPLE%OO %NL%%NOTIFY-GOLD%
-ItemDisplay[amu OR rin (!ID RARE AND ILVL>74)]: + %NAME% [i%ILVL%] +%NOTIFY-YELLOW%
+ItemDisplay[amu OR rin (!ID RARE AND ILVL>74)]: + %NL%%NAME% [i%ILVL%] %NL% +%NOTIFY-YELLOW%
 ItemDisplay[amu OR rin (RARE)]: + %NAME% [i%ILVL%] +%NOTIFY-YELLOW%
 ItemDisplay[aqv OR aq2 (!ID RARE AND ILVL>74)]: 
 ItemDisplay[(amu OR rin) (MAG) !ID OR ID ]: %NL%  %NAME% [i%ILVL%] 
@@ -131,15 +131,15 @@ ItemDisplay[SET (7qr OR oba) !ID]: %NL% + %NAME% + %NL%%NOTIFY-GREEN%
 
 // RUNEWORD BASES
 // 4os GMB+3 skill
-ItemDisplay[amc NMAG SOCK=4 TABSK0=3 !RW]: %NL%  %DARK_GREEN%%NAME% %RED%+3bow %SOCKETS%os  %NL%%NOTIFY-GRAY%
+//ItemDisplay[amc NMAG SOCK=4 TABSK0=3 !RW]: %NL%  %DARK_GREEN%%NAME% %RED%+3bow %SOCKETS%os  %NL%%NOTIFY-GRAY%
 // 4os+ eth thresher/giant thresher/mancatcher
-ItemDisplay[(7s8 OR 7wc OR 7br) NMAG SOCK=4 ETH !RW]: %NL%  %DARK_GREEN%%NAME% %RED%%SOCKETS%os ETH  %NL%%NOTIFY-GRAY%
+//ItemDisplay[(7s8 OR 7wc OR 7br) NMAG SOCK=4 ETH !RW]: %NL%  %DARK_GREEN%%NAME% %RED%%SOCKETS%os ETH  %NL%%NOTIFY-GRAY%
 // 5os+  superior zerker
-ItemDisplay[7wa SUP SOCK>4 !RW]: %NL%  %DARK_GREEN%%NAME% %RED%%SOCKETS%os  %NL%%NOTIFY-GRAY%
+//ItemDisplay[7wa SUP SOCK>4 !RW]: %NL%  %DARK_GREEN%%NAME% %RED%%SOCKETS%os  %NL%%NOTIFY-GRAY%
 // 5os+ eth superior zerker, col blade, col sword
-ItemDisplay[(7wa OR 7gd OR 7fb) SUP SOCK>4 ETH !RW]: %NL%  %DARK_GREEN%%NAME% %RED%%SOCKETS%os ETH  %NL%%NOTIFY-GRAY%
+//ItemDisplay[(7wa OR 7gd OR 7fb) SUP SOCK>4 ETH !RW]: %NL%  %DARK_GREEN%%NAME% %RED%%SOCKETS%os ETH  %NL%%NOTIFY-GRAY%
 // 3os elite sin claw +3 light sentry
-ItemDisplay[!NORM CL5 NMAG SOCK=3 SK271=3 !RW]: %NL%  %DARK_GREEN%%NAME% %RED%+3 Sentry %SOCKETS%os  %NL%%NOTIFY-GRAY%
+//ItemDisplay[!NORM CL5 NMAG SOCK=3 SK271=3 !RW]: %NL%  %DARK_GREEN%%NAME% %RED%+3 Sentry %SOCKETS%os  %NL%%NOTIFY-GRAY%
 
 // hide all else
 ItemDisplay[WEAPON (MAG OR RARE OR UNI OR SET) !ID]:

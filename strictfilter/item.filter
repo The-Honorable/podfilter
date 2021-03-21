@@ -13,15 +13,15 @@ item.filter
 // =============================================================
 // BASIC ITEMS
 //
-// Hidden: All potions except supers and full rejuv, keys, scrolls
+// Hidden: All potions except supers and rejuv, keys, scrolls
 // =============================================================
 ItemDisplay[GOLD<3000]:
-ItemDisplay[leg]: %NAME%
+ItemDisplay[leg]: %NL%  %NAME% %NL% MOOOOO  %NL%%NOTIFY-GOLD%
 ItemDisplay[hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4]:
 ItemDisplay[gps OR ops OR gpm OR opm OR gpl OR opl]:
 ItemDisplay[key OR vps OR yps OR wms OR tsc OR isc]:
 ItemDisplay[hp5]: Hp
-ItemDisplay[mp5]:	Mana
+ItemDisplay[mp5]: Mana
 ItemDisplay[rvl]: %NL%%BLACK%   %GREEN%!%PURPLE%7%  %BLACK%%NL%
 ItemDisplay[rvs]: %NL%%BLACK%   %GREEN%!%PURPLE%3%  %BLACK%%NL%
 

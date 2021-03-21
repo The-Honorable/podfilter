@@ -77,16 +77,17 @@ ItemDisplay[jew MAG OR RARE (!ID AND ILVL<45)]:
 // =============================================================
 // AMULETS, RINGS, BOLTS, ARROWS
 //
-// Hidden: (UNID) Magic amulets amulets/rings/quivers/arrows
+// Hidden: (UNID) Magic quivers/arrows
 // - Unid Set rings
-// - Unid rare amulets/rings/arrows <ilvl74
+// - Unid rare bolts/arrows <ilvl74
+// - shows magic and rare amulets/rings
 // =============================================================
 ItemDisplay[amu SET !ID]: %NL% O     %NAME%     O %NL%%NOTIFY-GREEN%
 ItemDisplay[amu OR rin (UNI !ID)]: %NL% %PURPLE%OO    %GOLD%%NAME%    %PURPLE%OO %NL%%NOTIFY-GOLD%
 ItemDisplay[amu OR rin (!ID RARE AND ILVL>74)]: + %NAME% [i%ILVL%] +%NOTIFY-YELLOW%
 ItemDisplay[amu OR rin (RARE)]: + %NAME% [i%ILVL%] +%NOTIFY-YELLOW%
 ItemDisplay[aqv OR aq2 (!ID RARE AND ILVL>74)]: 
-ItemDisplay[(amu OR rin) (MAG) !ID OR ID ]: %NL%  %NAME% [i%ILVL%]  %NL%%NOTIFY-BLUE%
+ItemDisplay[(amu OR rin) (MAG) !ID OR ID ]: %NL%  %NAME% [i%ILVL%] 
 ItemDisplay[(aq2 OR cq2 OR aqv OR cqv) UNI !ID]:
 ItemDisplay[rin SET !ID]:
 
@@ -179,9 +180,9 @@ ItemDisplay[SUP (pab OR paf) SOCK=4 ED=15 ETH !RW]: %NL%  %DARK_GREEN%%NAME% +15
 // 4os -10req monarch
 ItemDisplay[SUP uit SOCK=4 ITEMSTAT91=-10 !ETH !RW]: %NL%  %DARK_GREEN%%NAME% -10%req %RED%%SOCKETS%os [ETH]  %NL%%NOTIFY-GRAY%
 
-// RARES >ilvl79
+// RARES >ilvl60
 // pelts, gloves, boots, circs
-ItemDisplay[RARE (EQ4 OR EQ5 OR EQ7 OR CL1) ILVL>79 !ID]: %NAME% [i%ILVL%]
+ItemDisplay[RARE (EQ4 OR EQ5 OR EQ7 OR CL1) ILVL>60 !ID]: %NAME% [i%ILVL%]
 
 // hide all else
 ItemDisplay[ARMOR (MAG OR RARE OR UNI OR SET) !ID]:

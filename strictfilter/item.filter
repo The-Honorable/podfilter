@@ -16,7 +16,7 @@ item.filter
 // Hidden: All potions except supers and rejuv, keys, scrolls
 // =============================================================
 ItemDisplay[GOLD<3000]:
-ItemDisplay[leg]: %NL%  %GOLD%%NAME% %NL% MOOOOO %NL% BITCH %NL%  %NL%%NOTIFY-GOLD%
+ItemDisplay[leg]: %NL%  %GOLD%%NL% BITCH %NL% MOOOOO %NL% %NAME% %NL%%NOTIFY-GOLD%
 ItemDisplay[hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4]:
 ItemDisplay[gps OR ops OR gpm OR opm OR gpl OR opl]:
 ItemDisplay[key OR vps OR yps OR wms OR tsc OR isc]:
@@ -74,9 +74,9 @@ ItemDisplay[RUNE<20]: %PURPLE%OO  %ORANGE%%NAME%  %PURPLE%OO %NOTIFY-ORANGE%
 // trying to not hide charms
 ItemDisplay[cm1 OR cm2 OR cm3 (!ID UNI)]: %NL%  %NAME%  %NL%%NOTIFY-GOLD%
 ItemDisplay[cm1 OR cm2 OR cm3 (!ID )]: %NL%  %NAME% [i%ILVL%]  %NL%%NOTIFY-BLUE%
-ItemDisplay[cm1]: small boi
-ItemDisplay[cm2]: large boi
-ItemDisplay[cm3]: grand boi
+ItemDisplay[cm1]: %NL small boi %NL%
+ItemDisplay[cm2]: %NL% large boi %NL%
+ItemDisplay[cm3]: %NL% grand boi %NL%
 //ItemDisplay[(cm1 OR cm2 OR cm3)]: %NL%  %NAME% [i%ILVL%]
 
 // Hidden: Unid Jewels <ilvl 45

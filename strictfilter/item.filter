@@ -23,7 +23,7 @@ ItemDisplay[key OR vps OR yps OR wms OR tsc OR isc]:
 ItemDisplay[hp5]: Hp
 ItemDisplay[mp5]: Mana
 ItemDisplay[rvl]: %NL%%BLACK%   %GREEN%!%PURPLE%7%  %BLACK%%NL%
-ItemDisplay[rvs]: %NL%%BLACK%   %GREEN%!%PURPLE%3%  %BLACK%%NL%
+ItemDisplay[rvs]: %BLACK%   %GREEN%!%PURPLE%3%  %BLACK%
 
 // =============================================================
 // GEMS
@@ -181,13 +181,13 @@ ItemDisplay[SET (uth OR xsk) !ID]: %NL% + %NAME% + %NL%%NOTIFY-GREEN%
 
 // RUNEWORD BASES
 // 3os+ superior 15ed mage, dusk, archon
-ItemDisplay[SUP (xtp OR uui OR utp) SOCK>2 ED=15 !ETH !RW]: %NL%  %DARK_GREEN%%NAME% +15%ed %RED%%SOCKETS%os  %NL%%NOTIFY-GRAY%
+//ItemDisplay[SUP (xtp OR uui OR utp) SOCK>2 ED=15 !ETH !RW]: %NL%  %DARK_GREEN%%NAME% +15%ed %RED%%SOCKETS%os  %NL%%NOTIFY-GRAY%
 // 3os+ 15ed eth elite armors (treachery, stone, duress)
-ItemDisplay[SUP ELT EQ2 SOCK>2 ED=15 ETH !RW]: %NL%  %DARK_GREEN%%NAME% +15%ed %RED%%SOCKETS%os [ETH]  %NL%%NOTIFY-GRAY%
+//ItemDisplay[SUP ELT EQ2 SOCK>2 ED=15 ETH !RW]: %NL%  %DARK_GREEN%%NAME% +15%ed %RED%%SOCKETS%os [ETH]  %NL%%NOTIFY-GRAY%
 // 4os 15ed eth sacred targe, vortex shield (exile)
-ItemDisplay[SUP (pab OR paf) SOCK=4 ED=15 ETH !RW]: %NL%  %DARK_GREEN%%NAME% +15%ed %RED%%SOCKETS%os [ETH]  %NL%%NOTIFY-GRAY%
+//ItemDisplay[SUP (pab OR paf) SOCK=4 ED=15 ETH !RW]: %NL%  %DARK_GREEN%%NAME% +15%ed %RED%%SOCKETS%os [ETH]  %NL%%NOTIFY-GRAY%
 // 4os -10req monarch
-ItemDisplay[SUP uit SOCK=4 ITEMSTAT91=-10 !ETH !RW]: %NL%  %DARK_GREEN%%NAME% -10%req %RED%%SOCKETS%os [ETH]  %NL%%NOTIFY-GRAY%
+//ItemDisplay[SUP uit SOCK=4 ITEMSTAT91=-10 !ETH !RW]: %NL%  %DARK_GREEN%%NAME% -10%req %RED%%SOCKETS%os [ETH]  %NL%%NOTIFY-GRAY%
 
 // RARES >ilvl60
 // pelts, gloves, boots, circs

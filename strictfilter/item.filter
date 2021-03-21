@@ -31,6 +31,12 @@ ItemDisplay[rvl]: Full
 // =============================================================
 ItemDisplay[skl OR skz]: %NL% %TAN%%NAME% %NL%
 ItemDisplay[GEMLEVEL=1 OR GEMLEVEL=2 OR GEMLEVEL=3]:
+ItemDisplay[gzv]: %NL%%ORANGE%[%PURPLE%@%ORANGE%]%NL% //Flawless Amethyst
+ItemDisplay[glw]: %NL%%ORANGE%[%WHITE%@%ORANGE%]%NL% //Flawless Diamond
+ItemDisplay[glg]: %NL%%ORANGE%[%GREEN%@%ORANGE%]%NL% //Flawless Emerald
+ItemDisplay[glr]: %NL%%ORANGE%[%RED%@%ORANGE%]%NL% //Flawless Ruby
+ItemDisplay[glb]: %NL%%ORANGE%[%BLUE%@%ORANGE%]%NL% //Flawless Sapphire
+ItemDisplay[gly]: %NL%%ORANGE%[%YELLOW%@%ORANGE%]%NL% //Flawless Topaz
 
 // =============================================================
 // ENDGAME QUEST ITEMS AND POD ITEMS
@@ -61,7 +67,8 @@ ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10
 // Hidden: Runes below Lem (Ko shows for unique armor upgrade recipe)
 // =============================================================
 ItemDisplay[RUNE>25]: %NL% %PURPLE%OOO      %ORANGE%%NAME%      %PURPLE%OOO %NL%%NOTIFY-ORANGE%
-ItemDisplay[RUNE<25]: %NL% %PURPLE%OO  %ORANGE%%NAME%  %PURPLE%OO %NL%%NOTIFY-ORANGE%
+ItemDisplay[RUNE<25 AND RUNE>20]: %NL% %PURPLE%OO  %ORANGE%%NAME%  %PURPLE%OO %NL%%NOTIFY-ORANGE%
+ItemDisplay[RUNE<20]: %PURPLE%OO  %ORANGE%%NAME%  %PURPLE%OO %NOTIFY-ORANGE%
 
 // Hidden: Unid Large charms, Grand charms <ilvl50, Small charms <ilvl50
 ItemDisplay[cm1 OR cm2 OR cm3 (!ID UNI)]: %NL%  %NAME%  %NL%%NOTIFY-GOLD%

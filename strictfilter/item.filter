@@ -76,7 +76,6 @@ ItemDisplay[cm1 OR cm2 OR cm3 (!ID )]: %NL%  %NAME% [i%ILVL%]  %NL%%NOTIFY-BLUE%
 ItemDisplay[cm1]: %NL% small boi %NL%
 ItemDisplay[cm2]: %NL% large boi %NL%
 ItemDisplay[cm3]: %NL% grand boi %NL%
-//ItemDisplay[(cm1 OR cm2 OR cm3)]: %NL%  %NAME% [i%ILVL%]
 
 // Hidden: Unid Jewels <ilvl 45
 ItemDisplay[jew MAG !ID]: %NAME% [i%ILVL%]
@@ -94,8 +93,8 @@ ItemDisplay[jew MAG OR RARE (!ID AND ILVL<45)]:
 // =============================================================
 ItemDisplay[amu SET !ID]: %NL% O     %NAME%     O %NL%%NOTIFY-GREEN%
 ItemDisplay[amu OR rin (UNI !ID)]: %NL% %PURPLE%OO    %GOLD%%NAME%    %PURPLE%OO %NL%%NOTIFY-GOLD%
-ItemDisplay[amu OR rin (!ID RARE AND ILVL>74)]: + %NL%%NAME% [i%ILVL%] %NL% +%NOTIFY-YELLOW%
-ItemDisplay[amu OR rin (RARE)]: + %NAME% [i%ILVL%] +%NOTIFY-YELLOW%
+ItemDisplay[amu OR rin (!ID RARE AND ILVL>74)]: %NL%%NAME% [i%ILVL%] %NL% +%NOTIFY-YELLOW%
+ItemDisplay[amu OR rin (RARE)]: %NL% %NAME% %NOTIFY-YELLOW%
 ItemDisplay[aqv OR aq2 (!ID RARE AND ILVL>74)]: 
 //ItemDisplay[(amu OR rin) (MAG) !ID OR ID ]: %NL%  %NAME% %NL% [i%ILVL%] 
 ItemDisplay[(aq2 OR cq2 OR aqv OR cqv) UNI !ID]:

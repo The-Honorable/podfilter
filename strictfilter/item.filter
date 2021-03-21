@@ -74,7 +74,7 @@ ItemDisplay[RUNE<20]: %PURPLE%OO  %ORANGE%%NAME%  %PURPLE%OO %NOTIFY-ORANGE%
 // trying to not hide charms
 ItemDisplay[cm1 OR cm2 OR cm3 (!ID UNI)]: %NL%  %NAME%  %NL%%NOTIFY-GOLD%
 ItemDisplay[cm1 OR cm2 OR cm3 (!ID )]: %NL%  %NAME% [i%ILVL%]  %NL%%NOTIFY-BLUE%
-ItemDisplay[cm1]: %NL small boi %NL%
+ItemDisplay[cm1]: %NL% small boi %NL%
 ItemDisplay[cm2]: %NL% large boi %NL%
 ItemDisplay[cm3]: %NL% grand boi %NL%
 //ItemDisplay[(cm1 OR cm2 OR cm3)]: %NL%  %NAME% [i%ILVL%]

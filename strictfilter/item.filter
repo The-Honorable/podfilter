@@ -16,7 +16,7 @@ item.filter
 // Hidden: All potions except supers and rejuv, keys, scrolls
 // =============================================================
 ItemDisplay[GOLD<3000]:
-ItemDisplay[leg]: %NL%  %GOLD%%NL% BITCH %NL% MOOOOO %NL% %NAME% %NL%%NOTIFY-GOLD%
+ItemDisplay[leg]: %NL% %NAME% %GOLD%%NL% BITCH %NL% MOOOOO %NL%  %NL%%NOTIFY-GOLD%
 ItemDisplay[hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4]:
 ItemDisplay[gps OR ops OR gpm OR opm OR gpl OR opl]:
 ItemDisplay[key OR vps OR yps OR wms OR tsc OR isc]:
@@ -98,7 +98,7 @@ ItemDisplay[amu OR rin (UNI !ID)]: %NL% %PURPLE%OO    %GOLD%%NAME%    %PURPLE%OO
 ItemDisplay[amu OR rin (!ID RARE AND ILVL>74)]: + %NL%%NAME% [i%ILVL%] %NL% +%NOTIFY-YELLOW%
 ItemDisplay[amu OR rin (RARE)]: + %NAME% [i%ILVL%] +%NOTIFY-YELLOW%
 ItemDisplay[aqv OR aq2 (!ID RARE AND ILVL>74)]: 
-ItemDisplay[(amu OR rin) (MAG) !ID OR ID ]: %NL%  %NAME% [i%ILVL%] 
+ItemDisplay[(amu OR rin) (MAG) !ID OR ID ]: %NL%  %NAME% %NL% [i%ILVL%] 
 ItemDisplay[(aq2 OR cq2 OR aqv OR cqv) UNI !ID]:
 ItemDisplay[(aq2 OR cq2 OR aqv OR cqv) MAG !ID]:
 ItemDisplay[rin SET !ID]:

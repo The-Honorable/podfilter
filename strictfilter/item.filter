@@ -17,7 +17,7 @@ ItemDisplay[GOLD<3000]:
 ItemDisplay[leg]: %NL% %GOLD% %NAME% %NL% BITCH %NL% MOOOOO %NL%  %NL%%NOTIFY-GOLD%
 ItemDisplay[hp1 OR hp2 OR hp3 OR hp4 OR mp1 OR mp2 OR mp3 OR mp4]:
 ItemDisplay[gps OR ops OR gpm OR opm OR gpl OR opl]:
-ItemDisplay[key OR vps OR yps OR wms OR isc]:
+ItemDisplay[vps OR yps OR wms OR isc]:
 ItemDisplay[hp5]: %RED% HP 
 ItemDisplay[mp5]: %BLUE% MP
 ItemDisplay[rvl]: %NL%%BLACK%   %GREEN%!%PURPLE%7%  %BLACK%%NL%

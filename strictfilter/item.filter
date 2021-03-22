@@ -29,7 +29,7 @@ ItemDisplay[box]: %NL%     %PURPLE% Cube   %BLACK% %NL%
 //
 // Hidden: All except flawless skull and all Perfects
 // =============================================================
-ItemDisplay[skl OR skz]: %NL% %TAN%%NAME% %NL%
+ItemDisplay[skl OR skz]: %NL% %NAME% %NL%
 ItemDisplay[GEMLEVEL=1 OR GEMLEVEL=2 OR GEMLEVEL=3]:
 ItemDisplay[gzv]: %NL%%ORANGE%[%PURPLE%@%ORANGE%]%NL% //Flawless Amethyst
 ItemDisplay[glw]: %NL%%ORANGE%[%WHITE%@%ORANGE%]%NL% //Flawless Diamond
@@ -37,6 +37,7 @@ ItemDisplay[glg]: %NL%%ORANGE%[%GREEN%@%ORANGE%]%NL% //Flawless Emerald
 ItemDisplay[glr]: %NL%%ORANGE%[%RED%@%ORANGE%]%NL% //Flawless Ruby
 ItemDisplay[glb]: %NL%%ORANGE%[%BLUE%@%ORANGE%]%NL% //Flawless Sapphire
 ItemDisplay[gly]: %NL%%ORANGE%[%YELLOW%@%ORANGE%]%NL% //Flawless Topaz
+ItemDisplay[(gsr or gsv or gsy or gpy or gsb or gsg or gsw)]:%NL%%ORANGE% %NAME% %NL%
 
 // =============================================================
 // ENDGAME QUEST ITEMS AND POD ITEMS
@@ -66,16 +67,16 @@ ItemDisplay[(ma1 OR ma2 OR ma3 OR ma4 OR ma5 OR ma6 OR ma7 OR ma8 OR ma9 OR ma10
 //
 // Hidden: all runes are shown
 // =============================================================
-ItemDisplay[RUNE>25]: %NL% %PURPLE%OOO      %ORANGE%%NAME%      %PURPLE%OOO %NL%%NOTIFY-ORANGE%
-ItemDisplay[RUNE<25 AND RUNE>20]: %NL% %PURPLE%OO  %ORANGE%%NAME%  %PURPLE%OO %NL%%NOTIFY-ORANGE%
-ItemDisplay[RUNE<20]: %PURPLE%OO  %ORANGE%%NAME%  %PURPLE%OO %NOTIFY-ORANGE%
+ItemDisplay[RUNE>25]: %NL% %PURPLE%OOO      %ORANGE%%NAME% %GRAY%(%RUNENUM%)     %PURPLE%OOO %NL%%NOTIFY-ORANGE%
+ItemDisplay[RUNE<25 AND RUNE>20]: %NL% %PURPLE%OO  %ORANGE%%NAME% %GRAY%(%RUNENUM%) %PURPLE%OO %NL%%NOTIFY-ORANGE%
+ItemDisplay[RUNE<20]: %PURPLE%OO  %ORANGE%%NAME% %GRAY%(%RUNENUM%) %PURPLE%OO %NOTIFY-ORANGE%
 
 // trying to not hide charms
 ItemDisplay[cm1 OR cm2 OR cm3 (!ID UNI)]: %NL%  %NAME%  %NL%%NOTIFY-GOLD%
 ItemDisplay[cm1 OR cm2 OR cm3 (!ID )]: %NL%  %NAME% [i%ILVL%]  %NL%%NOTIFY-BLUE%
-ItemDisplay[cm1]: %NL% small boi %NL%
-ItemDisplay[cm2]: %NL% large boi %NL%
-ItemDisplay[cm3]: %NL% grand boi %NL%
+ItemDisplay[cm1]: %NL% %NAME% %NL%
+ItemDisplay[cm2]: %NL% %NAME% %NL%
+ItemDisplay[cm3]: %NL% %NAME% %NL%
 
 // Hidden: Unid Jewels <ilvl 45
 ItemDisplay[jew MAG !ID]: %NAME% [i%ILVL%]

@@ -23,7 +23,7 @@ ItemDisplay[mp5]: %BLUE% MP
 ItemDisplay[rvl]: %NL%%BLACK%   %GREEN%!%PURPLE%7%  %BLACK%%NL%
 ItemDisplay[rvs]: %BLACK%   %GREEN%!%PURPLE%3%  %BLACK%
 ItemDisplay[box]: %NL%     %PURPLE% Cube   %BLACK% %NL%
-ItemDisplay[tsc]: %NL% TP pick me up baazi %NL%
+ItemDisplay[tsc]: baazi -> TP
 
 // =============================================================
 // GEMS

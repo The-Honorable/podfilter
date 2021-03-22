@@ -159,8 +159,8 @@ ItemDisplay[WEAPON (ETH) !RW]:
 // =============================================================
 
 // UNIQUE
-// arreats, jalal's, ravenlore, griffs
-ItemDisplay[UNI (baa OR dra OR dre OR ci3) !ID]: %NL% %PURPLE%+ %GOLD%%NAME% %PURPLE%+ %NL%%NOTIFY-GOLD%
+// rockstopper, arreats, jalal's, ravenlore, griffs
+ItemDisplay[UNI (xkp OR baa OR dra OR dre OR ci3) !ID]: %NL% %PURPLE%+ %GOLD%%NAME% %PURPLE%+ %NL%%NOTIFY-GOLD%
 // arach, tyrael
 ItemDisplay[UNI (ulc OR uar) !ID]: %NL% %PURPLE%O %GOLD%%NAME% %PURPLE%O %NL%%NOTIFY-GOLD%
 // tgods, dungo

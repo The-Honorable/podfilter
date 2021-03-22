@@ -23,13 +23,15 @@ ItemDisplay[mp5]: %BLUE% MP
 ItemDisplay[rvl]: %NL%%BLACK%   %GREEN%!%PURPLE%7%  %BLACK%%NL%
 ItemDisplay[rvs]: %BLACK%   %GREEN%!%PURPLE%3%  %BLACK%
 ItemDisplay[box]: %NL%     %PURPLE% Cube   %BLACK% %NL%
+ItemDisplay[tsc]: %NL% TP pick me up baazi %NL%
 
 // =============================================================
 // GEMS
 //
 // Hidden: All except flawless skull and all Perfects
 // =============================================================
-ItemDisplay[skl OR skz]: %NL% %NAME% %NL%
+ItemDisplay[skz]: %NL% %NAME% %NL%
+ItemDisplay[skl]: %NL%%ORANGE%[%WHITE%fskull%ORANGE%]%NL% //flawless skull
 ItemDisplay[GEMLEVEL=1 OR GEMLEVEL=2 OR GEMLEVEL=3]:
 ItemDisplay[gzv]: %NL%%ORANGE%[%PURPLE%@%ORANGE%]%NL% //Flawless Amethyst
 ItemDisplay[glw]: %NL%%ORANGE%[%WHITE%@%ORANGE%]%NL% //Flawless Diamond
@@ -95,7 +97,7 @@ ItemDisplay[jew MAG OR RARE (!ID AND ILVL<45)]:
 ItemDisplay[amu SET !ID]: %NL% O     %NAME%     O %NL%%NOTIFY-GREEN%
 ItemDisplay[amu OR rin (UNI !ID)]: %NL% %PURPLE%OO    %GOLD%%NAME%    %PURPLE%OO %NL%%NOTIFY-GOLD%
 ItemDisplay[amu OR rin (!ID RARE AND ILVL>74)]: %NL%%NAME% [i%ILVL%] %NL% +%NOTIFY-YELLOW%
-ItemDisplay[amu OR rin (RARE)]: %NL% %NAME% %NL% %NOTIFY-YELLOW%
+ItemDisplay[amu OR rin (RARE)]: %NL% %NAME% [i%ILVL%] %NL% %NOTIFY-YELLOW%
 ItemDisplay[amu OR rin (MAG)]: %NL% %NAME% [i%ILVL%] %NL%
 ItemDisplay[aqv OR aq2 OR cq2 (!ID RARE AND ILVL>74)]: 
 //ItemDisplay[(amu OR rin) (MAG) !ID OR ID ]: %NL%  %NAME% %NL% [i%ILVL%] 

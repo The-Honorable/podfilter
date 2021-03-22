@@ -39,7 +39,7 @@ ItemDisplay[glg]: %NL%%ORANGE%[%GREEN%@%ORANGE%]%NL% //Flawless Emerald
 ItemDisplay[glr]: %NL%%ORANGE%[%RED%@%ORANGE%]%NL% //Flawless Ruby
 ItemDisplay[glb]: %NL%%ORANGE%[%BLUE%@%ORANGE%]%NL% //Flawless Sapphire
 ItemDisplay[gly]: %NL%%ORANGE%[%YELLOW%@%ORANGE%]%NL% //Flawless Topaz
-ItemDisplay[(gsr OR gsv OR gsy OR gpy OR gsb OR gsg OR gsw)]: %NL%%ORANGE% %NAME% %NL%
+ItemDisplay[(gpv OR gpy OR gpb OR gpg OR gpr OR gpw)]: %NL%%ORANGE% %NAME% %NL%
 
 // =============================================================
 // ENDGAME QUEST ITEMS AND POD ITEMS

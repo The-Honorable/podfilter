@@ -192,8 +192,8 @@ ItemDisplay[SET (uth OR xsk) !ID]: %NL% + %NAME% + %NL%%NOTIFY-GREEN%
 ItemDisplay[SUP (xtp OR uui OR utp) SOCK>2 ED=15 !ETH !RW]: %NL%  %DARK_GREEN%%NAME% +15%ed %RED%%SOCKETS%os  %NL%%NOTIFY-GRAY%
 // 3os+ 15ed eth elite armors (treachery, stone, duress)
 ItemDisplay[SUP ELT EQ2 SOCK>2 ED=15 ETH !RW]: %NL%  %DARK_GREEN%%NAME% +15%ed %RED%%SOCKETS%os [ETH]  %NL%%NOTIFY-GRAY%
-// 4os 15ed eth sacred targe, vortex shield (exile)
-ItemDisplay[SUP (pab OR paf) SOCK=4 ED=15 ETH !RW]: %NL%  %DARK_GREEN%%NAME% +15%ed %RED%%SOCKETS%os [ETH]  %NL%%NOTIFY-GRAY%
+// 4os 1 sacred targe, vortex shield (exile)
+ItemDisplay[NMAG (pab OR paf) !RW]: %NL% %DARK_GREEN%%NAME% %NL%%NOTIFY-GRAY%
 // 4os -10req monarch
 ItemDisplay[SUP uit SOCK=4 ITEMSTAT91=-10 !ETH !RW]: %NL%  %DARK_GREEN%%NAME% -10%req %RED%%SOCKETS%os [ETH]  %NL%%NOTIFY-GRAY%
 
